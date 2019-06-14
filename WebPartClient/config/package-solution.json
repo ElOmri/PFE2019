@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "listecv-client-side-solution",
+    "id": "61a6c1cb-6ac6-477e-99f0-6c044a2105d8",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/listecv.sppkg"
+  }
+}

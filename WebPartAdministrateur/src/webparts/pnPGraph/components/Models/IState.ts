@@ -1,0 +1,34 @@
+import { User as IUser } from "@microsoft/microsoft-graph-types-beta";
+export interface IState {
+  events:any;
+  projects : any;
+  templateFile: string;
+  isPickerDisabled?: boolean;
+  users: IUser[];
+  libraries: string[];
+  showPanel: boolean;
+  filter: string;
+  hide: boolean;
+  city: string;
+  displayName: string;
+  mail: string;
+  userPrincipalName: string;
+  businessPhones: string;
+  country: string;
+  officeLocation: string;
+  streetAddress: string;
+  schools: string[];
+  skills: string[];
+  aboutMe: string;
+  interests: string[];
+  pastProjects: string[];
+  responsibilities: string[];
+  companyName: string;
+  department: string;
+  jobTitle: string;
+  userclicked: string;
+  urlsite: string;
+  selectionDetails: {};
+  favoriImage: boolean;
+  userfav: Array<String>;
+}

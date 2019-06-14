@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b8e03ec4-5e33-4da2-8281-7ea8747159e3",
+  "alias": "PnPGraphWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "PnPGraph" },
+    "description": { "default": "PnPGraph description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "list" : {},
+      "hide" : true,
+      "TemplateFile" : ""
+    }
+  }]
+}

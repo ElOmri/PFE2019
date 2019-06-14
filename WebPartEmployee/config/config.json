@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "liste-employee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listeEmployee/ListeEmployeeWebPart.js",
+          "manifest": "./src/webparts/listeEmployee/ListeEmployeeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListeEmployeeWebPartStrings": "lib/webparts/listeEmployee/loc/{locale}.js"
+  }
+}

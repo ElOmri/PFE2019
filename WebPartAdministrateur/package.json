@@ -1,0 +1,61 @@
+{
+  "name": "pn-p-graph-web-part",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.4.0",
+    "@microsoft/sp-core-library": "1.7.1",
+    "@microsoft/sp-lodash-subset": "1.7.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.7.1",
+    "@microsoft/sp-webpart-base": "1.7.1",
+    "@pnp/common": "^1.2.7",
+    "@pnp/graph": "^1.2.7",
+    "@pnp/logging": "^1.2.7",
+    "@pnp/odata": "^1.2.7",
+    "@pnp/spfx-property-controls": "1.14.1",
+    "@progress/kendo-drawing": "^1.5.8",
+    "@progress/kendo-react-pdf": "^2.10.0",
+    "@types/es6-promise": "0.0.33",
+    "@types/react": "16.4.2",
+    "@types/react-dom": "16.0.5",
+    "@types/webpack-env": "1.13.1",
+    "css-loader": "^2.1.0",
+    "file-system": "^2.2.2",
+    "html2canvas": "^1.0.0-rc.1",
+    "jspdf": "^1.5.3",
+    "msal": "^0.2.4",
+    "office-ui-fabric-react": "^5.124.0",
+    "react": "15.6.2",
+    "react-awesome-button": "^6.1.0",
+    "react-dom": "15.6.2",
+    "react-id-swiper": "^1.6.9",
+    "react-loading": "^2.0.3",
+    "react-loading-screen": "0.0.17",
+    "react-native-really-awesome-button": "^1.4.2",
+    "sp-pnp-js": "^3.0.10",
+    "style-loader": "^0.23.1",
+    "swiper": "^4.5.0",
+    "then-fs": "^2.0.0"
+  },
+  "devDependencies": {
+    "@microsoft/microsoft-graph-types": "^1.4.0",
+    "@microsoft/microsoft-graph-types-beta": "github:microsoftgraph/msgraph-typescript-typings#beta",
+    "@microsoft/sp-build-web": "1.7.1",
+    "@microsoft/sp-module-interfaces": "1.7.1",
+    "@microsoft/sp-tslint-rules": "1.7.0",
+    "@microsoft/sp-webpart-workbench": "1.7.1",
+    "@types/chai": "3.4.34",
+    "@types/mocha": "2.2.38",
+    "@types/node": "^11.11.3",
+    "ajv": "~5.2.2",
+    "gulp": "~3.9.1"
+  }
+}

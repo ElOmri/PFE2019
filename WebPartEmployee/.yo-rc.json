@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "listeemployee",
+    "libraryId": "e0fa198d-6e52-47e1-a90c-05cef65cdf35",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
