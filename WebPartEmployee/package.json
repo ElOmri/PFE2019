@@ -38,7 +38,7 @@
     "react-bootstrap-table2-toolkit": "^2.0.0",
     "react-data-table-component": "^1.4.6",
     "react-date-range": "^1.0.0-beta",
-    "react-dom": "16.3.2",
+    "react-dom": "16.3.3",
     "styled-components": "^4.2.0",
     "typescript": "^3.1.6"
   },
