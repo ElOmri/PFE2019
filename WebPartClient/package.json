@@ -78,7 +78,7 @@
     "@types/cors": "^2.8.4",
     "@types/jquery": "^3.3.29",
     "@types/mocha": "2.2.38",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "gulp": "~3.9.1",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
